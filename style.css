@@ -1,0 +1,58 @@
+body {
+  background-color: lightgreen;
+  background: url(https://i.pinimg.com/originals/bf/5e/9a/bf5e9ac1323e5b49a621ee28a702765c.jpg);
+}
+.myDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUAKcW5os70XRIp829KinN-0yMVhHAsEWSIQ&usqp=CAU);
+  margin: 10px;
+  background-size: 70px;
+  text-align: center;
+}
+#grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  border: 2px solid black;
+  position: absolute;
+  margin: 10px;
+}
+#heading {
+  padding-left: 500px;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  border: 2px solid black;
+  height: auto;
+}
+button {
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+button:hover {
+  color: darkorange;
+}
+#textBox {
+  width: 200px;
+  height: 20px;
+  margin-left: 500px;
+}
+#container ::placeholder {
+  color: red;
+  font-size: 15px;
+}
+#generateButton {
+  margin-bottom: 5px;
+}
